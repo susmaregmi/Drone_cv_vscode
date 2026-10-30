@@ -1,0 +1,16 @@
+# Install with:  pip install -r requirements.txt
+opencv-python
+numpy
+matplotlib
+pandas
+scipy
+scikit-image
+scikit-learn      # confusion matrix, classification report
+pillow
+rasterio          # reads GeoTIFF maps (orthomosaic, DEM)
+laspy[lazrs]      # reads LAS/LAZ point clouds
+geopandas         # saves plant points for QGIS / ArcGIS
+ultralytics       # YOLO (also installs PyTorch)
+ipykernel         # lets VS Code run "# %%" cells interactively
+# Only needed for p5b_species.py:
+tensorflow
